@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style11.css">
+     <link rel="stylesheet" href="style1111.css">
+
+</head>
+<body>
+
+
+
+    <!-- chapter_39 to 42 -->
+      <!-- task 1  -->
+
+      <form>  
+        Base: <input type="text" id="base"><br>  <br>
+        Exponent: <input type="text" id="exp"> <br>  <br>
+          <input type="button"  onclick="display()" value="submit">  
+        </form>  
+        <p><span id="result"></span></p>  
+
+
+
+
+
+
+<!-- task 2 -->
+<h3>Javascript Program to find leap year</h3>
+<input type="text" id="year"></input>
+<button onclick="check_leapyear()">Check</button>
+<br><br>
+
+
+
+<!-- chapter_43 to 48 -->
+<!-- task 1 -->
+
+<a href="#" onClick="alert('Hi');">Click</a>
+<br><br>
+
+
+<!-- task 2 -->
+
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/InfinixNote7-b.jpg" alt="Cinque Terre" onclick="getbox()">
+    <div class="desc">Huawei Nova 7i</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/OppoA92-b.jpg" alt="Forest" onclick="getbox()">
+    <div class="desc">Oppo A92</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/RealmeX3SuperZoom-b.jpg" alt="Northern Lights" onclick="getbox()">
+    <div class="desc">Realme X3 Super Zoom</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="images/HuaweiNova7i-b.jpg" alt="Mountains" onclick="getbox()">
+    <div class="desc">Realme X3 Super Zoom</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<br><br>
+
+
+
+
+
+<!-- task 3 -->
+  <table id = "myTable" border="1px">
+          <tr>
+              <th>Index</th>
+          <th>Name</th>
+          <th>Class</th>
+          <th>Operation</th>
+          </tr>
+          <tr>
+              <td>0</td>
+              <td>Salman</td>
+              <td>10</td>
+              <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+          </tr>
+          <tr>
+                  <td>1</td>
+              <td>Kashif</td>
+              <td>12</td>
+              <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+          </tr>
+          <tr>
+              <td>2</td>
+      <td>Rizwan</td>
+      <td>08</td>
+      <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+          </tr>
+          <tr>
+              <td>3</td>
+      <td>Javed</td>
+      <td>05</td>
+      <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+          </tr>
+  </table>
+
+<br><br><br>
+
+
+<!-- task 4 -->
+
+<form id="form1" runat="server">
+  <div style="border: 1px solid #d2cece; width: 500px; height: 350px; text-align: center">
+      <h2>onmouseover and onmouseout javascript code </h2>
+      <br />
+          <img border="0" alt="car" src="images/car.jpg" id="img" onmouseover="mouseOver()" onmouseout="mouseOut()" />
+  </div>
+
+</form>
+
+
+<br><br>
+
+
+
+<!-- task 5 -->
+
+
+<input type=button value="increment" onclick="button1()" />
+<input type=button value="decrement" onclick="button2()" />
+<span id="output-area"></span>
+
+
+
+
+
+
+
+<!-- chapter_49 to 52 -->
+
+
+<!-- task 1 -->
+<form id="form" >
+        <label for="">First Name:</label>
+        <input class="printValues" type="text" name="" id="1"> <br> <br>
+        <label for="">Last Name:</label>
+        <input class="printValues" type="text" name="" id="2"> <br> <br>
+        <label for="">Email:</label>
+        <input class="printValues" type="text" name="" id="3"> <br> <br>
+        <label for="">Password:</label>
+        <input class="printValues" type="password" name="" id="4"> <br> <br>
+        <input  type="submit" onclick="showMessage()">
+        </form>
+        
+        <p id="print"></p>
+            
+        <br> <br><br> <br>
+            
+            <!-- task 2 -->
+             <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum dolorum earum aliquam veritatis, quas laudantium, expedita, 
+            </p>
+            <button onclick="readMore()">Read More</button>
+            <br><br><br>
+            
+              <!-- task 3 -->
+            
+            <table id = "myTable" border="1px">
+                <tr>
+                    <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th colspan="2">Operation</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Salman</td>
+                    <td>10</td>
+                    <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+                    <td class="edt"><button onclick="edit()">Edit</button></td>
+                </tr>
+                <tr>
+                        <td>1</td>
+                    <td>Kashif</td>
+                    <td>12</td>
+                    <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+                    <td class="edt"><button onclick="edit()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+            <td>Rizwan</td>
+            <td>08</td>
+            <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+            <td class="edt"><button onclick="edit()">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+            <td>Javed</td>
+            <td>05</td>
+            <td class="dlt"><button onclick="myFunction(this)">Delete</button></td>
+            <td class="edt"><button onclick="edit()">Edit</button></td>
+                </tr>
+        </table> 
+
+<!-- chapter_53 to 57 -->
+
+<!-- 1.	Consider you have 3 images in a file as shown below: 
+  Now When you click on an image it should display in a modal.
+   -->
+   <div class="w3-container">
+        <h2>Modal Image Gallery</h2>
+        <p>Click on the images to display them in full size.</p>
+      </div>
+      
+      <div class="w3-row-padding">
+        <div class="w3-container w3-third">
+          <img src="images/1.jpg" style="width:100%;cursor:pointer" 
+          onclick="onClick(this)" class="w3-hover-opacity">
+        </div>
+        <div class="w3-container w3-third">
+          <img src="images/2.jpg" style="width:100%;cursor:pointer" 
+          onclick="onClick(this)" class="w3-hover-opacity">
+        </div>
+        <div class="w3-container w3-third">
+          <img src="images/3.jpg" style="width:100%;cursor:pointer" 
+          onclick="onClick(this)" class="w3-hover-opacity">
+        </div>
+      </div>
+      
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width:100%">
+        </div>
+      </div>
+      
+   
+      <br>
+      <br>
+      <br>
+      <!-- 2. Create a paragraph and two buttons “zoom in ”(+) and “zoom out”(-).
+      On each click on “zoom in”(+) , add 10px in font size of paragraph.
+      And on each click on “zoom out”(-) , minus 10px in font size of paragraph. -->
+      
+
+
+    <div class="box"> 
+          <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat sequi beatae alias nihil eius deserunt nemo, 
+            soluta aliquam quasi consequatur! Vel aperiam excepturi aliquam quod dicta exercitationem reprehenderit dolor.</p> 
+    </div> 
+    <hr> 
+      
+<input type="button" value="+" onClick="zoomIn()"/>
+<input type="button" value="-" onClick="zoomOut()"/>
+
+<!-- chapter_58 to 67 -->
+
+<div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+        <label for="fi rst-name">First Name</label>
+        <input type="text" id="fi rst-name" />
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" />
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+        </div>
+        <div id="main-content" class="content">
+        <p class="render"> First Name : Alex</p>
+        <p class="render" id="lastName">Last Name: Bank</p>
+        <p class="render"> Email : alexbank@example.com</p>
+        <p class="render"> Country : Pakistan </p>
+        <p class="render"> contact : +92 300 1234567</p>
+        </div>
+        </div>
+    
+        <div id="dataId">
+    
+        </div>
+
+    
+</body>
+</html>
